@@ -1,0 +1,103 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background: url("./images/body_images/back_ground.jpg");
+}
+
+#main {
+    background-color: rgba(37, 139, 146, 0.685);
+    width: 92%;
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.877);
+    position: relative;
+    margin: 70px auto;
+    order: 2;
+}
+
+#main h1 {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 15px;
+    padding-top: 15px;
+}
+
+#main_container {
+    padding: 3% 1%;
+    margin: 2% auto;
+}
+
+#main #main_container .main_element img {
+    width: 80%;
+    margin: 3% 10%;
+    border-top-right-radius: 10%;
+    border-top-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+    border-bottom-left-radius: 10%;
+}
+
+.main_element {
+    background-color: rgb(100, 139, 134);
+    display: inline-block;
+    margin: 2% 1%;
+    flex-wrap: wrap;
+    min-width: 22%;
+    width: auto;
+    max-width: 470px;
+}
+
+@media (max-width : 1065px) {
+    .main_element {
+        background-color: rgb(100, 139, 134);
+        display: inline-block;
+        margin: 2% 1%;
+        flex-wrap: wrap;
+        min-width: 30%;
+        max-width: 470px;
+    }
+}
+
+@media (max-width : 780px) {
+    .main_element {
+        background-color: rgb(100, 139, 134);
+        display: inline-block;
+        margin: 2% 1%;
+        flex-wrap: wrap;
+        min-width: 47%;
+        max-width: 470px;
+    }
+}
+
+@media (max-width : 510px) {
+    .main_element {
+        background-color: rgb(100, 139, 134);
+        display: inline-block;
+        margin: 2% 1%;
+        flex-wrap: wrap;
+        min-width: 85%;
+        max-width: 470px;
+    }
+
+    #main #main_container .main_element img {
+        width: 60%;
+        margin: 3% 20%;
+        border-top-right-radius: 10%;
+        border-top-left-radius: 10%;
+        border-bottom-right-radius: 10%;
+        border-bottom-left-radius: 10%;
+    }
+}
+
+.cafe_dets {
+    margin: 2px auto;
+    width: 100%;
+    text-align: center;
+}
+
+
+a {
+    text-decoration: none;
+    color: black;
+}
